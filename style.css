@@ -1,0 +1,150 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.title{
+  text-align: center
+}
+
+svg {
+  position: relative;
+  top: -220px;
+  left: -15px;
+}
+
+.popup{
+  position: relative;
+  text-align: center;
+  right: -1050px;
+  top: 100px;
+  width: 400px;
+  height: 250px;
+  border: 1px solid#111
+}
+
+.country {
+  background-color: #D3C0CD;
+  margin: 25px;
+  position: absolute;
+  z-index: 1;
+  border: 1px solid #3D3A4B;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.buttonz {
+  display: flex;
+  justify-content: space-around;
+  background-color: #3D3A4B;
+}
+
+body {
+  background-color: #D3C0CD;
+}
+
+.whatIs {
+  background-image: url("https://live.staticflickr.com/4310/35044795794_6a8d6fd54f_b.jpg");
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+  color: #D3C0CD
+}
+
+/* fonts stuff */
+
+.ourTeamHeader{
+  color: #240115;
+}
+
+.bestieName {
+  color:#240115;
+}
+
+h1 {
+  font-family: 'Abril Fatface';
+  text-align: center;
+  font-weight: 80%;
+  color: #240115;
+}
+
+
+a:visited { 
+ text-decoration: none; 
+ color: #D3C0CD; 
+}
+button {
+  font-family: 'Nanum Myeongjo', serif;
+  background-color: #3D3A4B;
+  border: none;
+  color: #D3C0CD;
+  font-size: 15px;
+  padding: 5px;
+}
+
+h2 {
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 90%;
+  text-align: center;
+}
+
+.disclaimer {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 70%;
+}
+
+/* font stuff */
+font-family: 'Abril Fatface', cursive;
+font-family: 'Nanum Myeongjo', serif;
+font-family: 'Open Sans', sans-serif;
+
+/*map*/
+
+.asiaMap {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+path:hover, circle:hover {
+  stroke: #937666 !important;
+  stroke-width: 2px;
+  stroke-linejoin: round;
+  fill: #937666 !important;
+  cursor: pointer;
+}
+
+.path67 {
+  fill: none !important;
+  stroke: #3D3A4B !important;
+  cursor: default;
+}
+
+#info-box {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  background-color: #D3C0CD;
+  border-radius:10px;
+  padding:3px;
+  font-family: Nanun Myeongjo;
+}
+
+color: #240115
+color: #D3C0CD
+color: #B19994
+color: #937666
+color: #3D3A4B
